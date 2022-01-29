@@ -19,4 +19,24 @@ jobs:
           stack: "container"
           region: "eu"
         env:
+          HD_BASE_URL: ${{secrets.BASE_URL}}
+          HD_AUTH_CHAT: ${{secrets.AUTH_CHAT}}
+          HD_API_ID: ${{secrets.API_ID}}
+          HD_API_HASH: ${{secrets.API_HASH}}
+          HD_ABOUT_CMD: ${{secrets.ABOUT_CMD}}
+          HD_PAUSEALL_CMD: ${{secrets.PAUSEALL_CMD}}
+          HD_LEECH_CMD: ${{secrets.LEECH_CMD}}
+          HD_GETLOGS_CMD: ${{secrets.GETLOGS_CMD}}
+          HD_EXEC_CMD: ${{secrets.EXEC_CMD}}
+          HD_BOT_TOKEN: ${{secrets.BOT_TOKEN}}
+          HD_SETTINGS_CMD: ${{secrets.SETTINGS_CMD}}
+          HD_SERVER_CMD: ${{secrets.SERVER_CMD}}
+          HD_RESUMEALL_CMD: ${{secrets.RESUMEALL_CMD}}
+          HD_PYTDL: ${{secrets.PYTDL}}
+          HD_PURGE_CMD: ${{secrets.PURGE_CMD}}
           HD_YTDL: ${{secrets.YTDL}}
+          HD_USERSETTINGS_CMD: ${{secrets.USERSETTINGS_CMD}}
+          HD_UPLOAD_CMD: ${{secrets.UPLOAD_CMD}}
+          HD_STATUS_CMD: ${{secrets.STATUS_CMD}}
+
+
